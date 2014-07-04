@@ -6,7 +6,7 @@ A C++ equivalent to the C# property [accessors](http://msdn.microsoft.com/en-us/
 The accessor of an attribute contains the executable statements associated with getting or setting the attribute. 
 
 The declarations takes the following forms:
-```C
+```cpp
 struct user
 {
 	accessor(int)
@@ -22,9 +22,9 @@ struct user
 		}
 	} age;
 };
-```c
-When you reference the attribute, except as the target of an assignment, the get accessor is invoked to read the value of the attribute. For example:
 ```
+When you reference the attribute, except as the target of an assignment, the get accessor is invoked to read the value of the attribute. For example:
+```C++
 int main()
 {
 	struct user user;
