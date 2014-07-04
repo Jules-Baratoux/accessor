@@ -1,7 +1,7 @@
 Accessor
 ========
 
-A C++ implementation of the C# property [accessors](http://msdn.microsoft.com/en-us/library/aa287786(v=vs.71).aspx)
+A C++ equivalent to the C# property [accessors](http://msdn.microsoft.com/en-us/library/aa287786(v=vs.71).aspx)
 
 The accessor of an attribute contains the executable statements associated with getting or setting the attribute. 
 
