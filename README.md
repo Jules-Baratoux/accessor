@@ -24,7 +24,7 @@ struct user
 };
 ```
 When you reference the attribute, except as the target of an assignment, the get accessor is invoked to read the value of the attribute. For example:
-```C++
+```cpp
 int main()
 {
 	struct user user;
